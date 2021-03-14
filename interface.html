@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="./js/jquery-3.5.1.min.js"></script>
+    <link rel="stylesheet" href="./js/jquery-ui/jquery-ui.min.css">
+    <link rel="stylesheet" href="./js/jquery-ui/jquery-ui.structure.min.css">
+    <link rel="stylesheet" href="./js/jquery-ui/jquery-ui.theme.min.css">
+    <script type="text/javascript" src="./js/jquery-ui/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="./js/interface.js"></script>
+    <title>jQuery UI</title>
+    <link rel="stylesheet" href="./interface.css">
+</head>
+
+<body>
+    <h1>Trabajando con User Interface en JQueryUI!!</h1>
+
+    <hr>
+
+    <h3>Tooltip</h3>
+
+    <a href="#" class="link" title="Accede a la sección de mis datos en esta web.">
+        Mis datos
+    </a><br><br>
+    <a href="#" class="link" title="Presiona para indentificarte.">
+        Identificarse
+    </a><br><br>
+    <a href="#" class="link" title="Explora la lista de tus amigos.">
+        Amigos
+    </a>
+
+    <hr>
+
+    <h3>Calendario</h3>
+
+    <input type="text" id="calendario">
+
+    <hr>
+
+    <h3>Pestañas</h3>
+    <div id="pestanas">
+        <ul>
+            <li> <a href="#tabs-1">Pestaña 1</a></li>
+            <li> <a href="#tabs-1">Pestaña 2</a></li>
+            <li> <a href="#tabs-1">Pestaña 3</a></li>
+        </ul>
+        <div id="tabs-1">
+            Hola, soy la primera pestaña
+        </div>
+        <div id="tabs-1">
+            Hola, soy la segunda pestaña
+        </div>
+        <div id="tabs-1">
+            Hola, soy la tercera pestaña
+        </div>
+    </div>
+    <hr>
+
+    <h3>Cuadros de dialogo</h3>
+    <button type="submit" id="lanzar-popup">Lanzar Pop-up</button>
+    <div id="popup" title="¿Estás seguro?" style="display: none;">
+        <p>Si continuas conmigo, aprenderas mucho sobre la vida y la muerte</p>
+    </div>
+
+    <hr>
+    <button id="show">
+        Show
+    </button>
+
+    <div class="box-efect element"></div>
+    <hr>
+    <div id="moved-el">
+    </div>
+    <div id="area">
+    </div>
+
+    <ul class="select-list">
+        <li>Crash Bandicoot</li>
+        <li>ImperiumAO</li>
+        <li>Wakfu</li>
+        <li>Best Chess Ever</li>
+    </ul>
+
+    <div class="element">
+        <p>Hi I'm the first element from the web</p>
+    </div>
+    <div class="element">
+        <p>Hi I'm the second element from the web</p>
+    </div>
+    <div class="element">
+        <p>Hi I'm the third element from the web</p>
+    </div>
+</body>
+
+</html>
